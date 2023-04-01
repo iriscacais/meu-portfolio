@@ -1,0 +1,148 @@
+.navbar {
+    color: #f39cab;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+   
+  }
+  
+  .navbar:visited {
+    color: #f39cab;
+  
+  }
+  
+  .navbar:hover {
+    color: #98C379;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: 2px solid;
+    color:#f39cab;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  
+  .title {
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 8px;
+
+  }
+  
+  #navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .mobile i {
+    color: #f39cab;
+    align-items: center;
+  }
+
+  .headerMenu {
+    align-items: center;
+    background-color: #11172a;
+    box-shadow: 1px 1px 10px #fac0ca;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    padding: 0;
+    width: 100%;
+   }
+  
+
+  @media screen and (max-width: 769px) {
+    #navbar {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: flex-start;
+      right: -300px;
+      padding: 40px 0 0 10px;
+      position: fixed;
+      transition: 0.3s ease-in-out;
+      top: 90px;
+      width: 300px;
+    }
+  
+    #navbar.active {
+      background-color: #11172a;
+      right: 0px;
+    }
+  
+    #navbar li {
+     margin-bottom: 25px;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  
+    .mobile i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+   .headerMenu {
+    padding: 5px;
+   }
+  }
+
+  @media (max-width: 414px){
+     #navbar {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: flex-start;
+      right: -300px;
+      padding: 40px 0 0 10px;
+      position: fixed;
+      transition: 0.3s ease-in-out;
+      top: 90px;
+      width: 300px;
+    }
+  
+    #navbar.active {
+      background-color: #11172a;
+      right: 0px;
+    }
+  
+    #navbar li {
+     margin-bottom: 25px;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  
+    .mobile i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+   .headerMenu {
+    padding: 5px;
+   }
+}

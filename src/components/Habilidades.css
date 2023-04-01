@@ -1,0 +1,51 @@
+
+#habilidades {
+    margin-top: 0;
+    padding: 128px 0 0 0;
+}
+
+.hardSkills {
+    align-items: center;
+    border: 1px solid #f39cab;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+    padding: 5px;
+}
+
+.hardSkills p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.divSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.logoSkills {
+    width: 95px;
+}
+
+
+@media screen and (max-width: 769px) {
+    #habilidades{
+        margin-bottom: 10%;
+        padding: 60px, 0 0 0;
+    }
+
+    .divSkills {
+        margin-bottom: 10%;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+}
