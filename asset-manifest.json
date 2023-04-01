@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iris-dev/static/css/main.409e7df2.css",
+    "main.js": "/iris-dev/static/js/main.692999c1.js",
+    "static/js/787.ec144382.chunk.js": "/iris-dev/static/js/787.ec144382.chunk.js",
+    "index.html": "/iris-dev/index.html",
+    "main.409e7df2.css.map": "/iris-dev/static/css/main.409e7df2.css.map",
+    "main.692999c1.js.map": "/iris-dev/static/js/main.692999c1.js.map",
+    "787.ec144382.chunk.js.map": "/iris-dev/static/js/787.ec144382.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.409e7df2.css",
+    "static/js/main.692999c1.js"
+  ]
+}
