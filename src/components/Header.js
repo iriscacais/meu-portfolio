@@ -16,9 +16,9 @@ class Header extends React.Component {
                 <div>
                     <ul  id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                         <li><a href="#sobreMim" className="navbar">Sobre</a></li>
+                        <li><a href="#experiencias" className="navbar">Experiências</a></li>
                         <li><a href="#habilidades"className="navbar" >Hard Skills</a></li>
                         <li><a href="#projetos"className="navbar" >Projetos</a></li>
-                        <li><a href="#experiencias" className="navbar">Experiências</a></li>
                         <li><a href="#contato"className="navbar" >Contato</a></li>
                     </ul>
                 </div>
