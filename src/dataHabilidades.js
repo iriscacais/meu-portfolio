@@ -44,8 +44,8 @@ const dataHardSkills = [
 
      {
       id: 8,
-      name: 'VS Code',
-      image: 'https://i.pinimg.com/564x/c0/31/6a/c0316a58e22769031fddf28f9d9b8539.jpg',
+      name: 'React Hooks',
+      image: 'https://i.pinimg.com/564x/79/4b/f9/794bf998b757aa73ec23d96befb484cd.jpg',
      },
 ]
 export default dataHardSkills;

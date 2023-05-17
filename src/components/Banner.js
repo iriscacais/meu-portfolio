@@ -13,7 +13,7 @@ class Banner extends React.Component {
                 </div>
                 <span className="content">
                     <a href="mailto:mandeparairis@gmail.com" className="botoes">Entrar em contato</a>
-                    <a href="" className="botoes">Download CV</a>
+                    <a href="./src/utils/curriculo-iris-cacais.pdf" download="curriculo-iris-cacais" className="botoes">Download CV</a>
                 </span> 
             </section>
              

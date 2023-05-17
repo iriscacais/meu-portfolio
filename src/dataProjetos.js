@@ -9,15 +9,24 @@ const dataProjetos = [
         deploy:'https://known-wood.surge.sh/',
     },
 
-    {
-        id: 2,
-        name:'Zoo functions',
-        description: 'Implementação de funções para o sistema de um zoológico. - Fundamentos',
-        details: 'ES6, HOFs, testes unitários',
-        image:'https://i.pinimg.com/564x/b3/68/81/b36881542bbf4f5c8d8a25bfed9cea9b.jpg',
-        github:'https://github.com/iriscacais/zoo-functions',
-    },
-
+    // {
+    //     id: 2,
+    //     name:'TrybeTunes',
+    //     description: 'Aplicação capaz de reproduzi músicas - Front-end',
+    //     details: 'React, API, life cycle ',
+    //     image:'https://i.pinimg.com/564x/2e/a4/b9/2ea4b943252210904436f757a112d6a0.jpg',
+    //     github:'https://github.com/iriscacais/trybeTunes',
+    //     deploy:'https://iriscacais.github.io/trybeTunes/',
+    // },
+    // {
+    //     id: 2,
+    //     name:'',
+    //     description: '',
+    //     details: ' ',
+    //     image:'',
+    //     github:'',
+    //     deploy:'',
+    // },
     {
         id: 3,
         name:'Shopping cart',
@@ -37,5 +46,13 @@ const dataProjetos = [
         github:'https://github.com/iriscacais/unit-tests',
     },
 
+    {
+        id: 5,
+        name:'Zoo functions',
+        description: 'Implementação de funções para o sistema de um zoológico. - Fundamentos',
+        details: 'ES6, HOFs, testes unitários',
+        image:'https://i.pinimg.com/564x/b3/68/81/b36881542bbf4f5c8d8a25bfed9cea9b.jpg',
+        github:'https://github.com/iriscacais/zoo-functions',
+    },
 ]
 export default dataProjetos;
