@@ -42,10 +42,5 @@ const dataHardSkills = [
       image: 'https://i.pinimg.com/564x/86/7c/51/867c51084773d55143a82faec293bd74.jpg',
      },
 
-     {
-      id: 8,
-      name: 'React Hooks',
-      image: 'https://i.pinimg.com/564x/79/4b/f9/794bf998b757aa73ec23d96befb484cd.jpg',
-     },
 ]
 export default dataHardSkills;

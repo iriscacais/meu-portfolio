@@ -2,6 +2,7 @@ import React from "react";
 import './Habilidades.css'
 import CardSkills from "./CardSkills";
 import dataHardSkills from "../dataHabilidades";
+import './Experiencias.css'
 
 class Habilidades extends React.Component {
   
@@ -18,6 +19,17 @@ class Habilidades extends React.Component {
                     />
                 ))}
               </div>
+              <h2>Soft Skills</h2>
+              <div className="divExperiencias">
+                 <ul>
+                <li>Trabalho em equipe</li>
+                <br></br><br></br>
+                <li>Comunicação multidisciplinar</li>
+                <br></br><br></br>
+                <li>Metodologias ágeis - trello / kanban</li>
+              </ul>
+              </div>
+             
             </main>
             
         )
