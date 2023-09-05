@@ -9,6 +9,15 @@ const dataProjetos = [
         deploy:'https://known-wood.surge.sh/',
     },
 
+    {
+        id: 2,
+        name:'Site para uma clínica de estética',
+        description: 'Front-end usando react',
+        details: 'React, JSX, CSS3, Bootstrap',
+        image:'https://i.pinimg.com/564x/55/60/10/5560109267159bafebfc69427c85b7b9.jpg',
+        github:'https://github.com/iriscacais/beautyclinicpage',
+        deploy:'https://iriscacais.github.io/beautyclinicpage/',
+    },
     // {
     //     id: 2,
     //     name:'TrybeTunes',

@@ -6,13 +6,19 @@
 
 .hardSkills {
     align-items: center;
-    border: 1px solid #f39cab;
+    border: 2px solid #f39cab;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 6px;
     padding: 5px;
+}
+
+.hardSkills:hover {
+    
+    border: 2px solid #98C379;
+
 }
 
 .hardSkills p {
