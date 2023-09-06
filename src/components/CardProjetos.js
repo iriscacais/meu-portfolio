@@ -11,7 +11,7 @@ class CardProjetos extends React.Component {
                     </div>
                     <div className="content">
                         <div>
-                            <h3>{ name }</h3>
+                            <h5>{ name }</h5>
                             <p>{ description }</p>
                             <p className="details"> Skills: { details }</p>
                             <a href={github} target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github fa-2x"></i></a>

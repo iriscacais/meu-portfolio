@@ -11,10 +11,10 @@ const dataProjetos = [
 
     {
         id: 2,
-        name:'Site para uma clínica de estética',
-        description: 'Front-end usando react',
+        name:'Clínica de estética',
+        description: 'Uma interface Front-end usando react',
         details: 'React, JSX, CSS3, Bootstrap',
-        image:'https://i.pinimg.com/564x/55/60/10/5560109267159bafebfc69427c85b7b9.jpg',
+        image:'https://i.pinimg.com/564x/30/68/db/3068db61a23d17c9ea0fa319a09aaeda.jpg',
         github:'https://github.com/iriscacais/beautyclinicpage',
         deploy:'https://iriscacais.github.io/beautyclinicpage/',
     },

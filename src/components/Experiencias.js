@@ -20,7 +20,7 @@ class Experiencias extends React.Component {
                     <br></br>
                     <li>Concluído: Módulo de ciência da computação <a href="https://www.credential.net/385872df-bdee-4455-92b1-3427762ce1d4#gs.5anwq3" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap"></i></a></li>
                     <br></br>
-                    <li>Próximos passos: Curso de Vetores e Animação com SVG da Alura</li>
+                    <li>Próximos passos: Cursando SASS na Alura</li>
                     </ul>
                 </div>
            </main> 

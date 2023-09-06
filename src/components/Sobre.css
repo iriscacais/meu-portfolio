@@ -11,6 +11,11 @@
     margin-right: 10%;
     margin-bottom: 1%;
     padding: 128px 0 0 0;
+    width: 57%;
+}
+.sectionAbout {
+   display: flex;
+   justify-content: center;
 }
 
 .divImage p {
