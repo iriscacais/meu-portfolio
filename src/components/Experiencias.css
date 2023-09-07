@@ -1,6 +1,6 @@
 #experiencias {
     margin-bottom: 4%;
-    padding: 128px;
+    padding-top: 128px;
 }
 .divExperiencias {
     align-items: flex-start;
@@ -34,7 +34,6 @@ h2 {
 
 @media screen and (max-width: 769px) {
     #experiencias{
-        margin-top: 20%;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -42,9 +41,30 @@ h2 {
     .divExperiencias {
         margin-top: 5%;
         margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
 
     }
+@media screen and (max-width: 520px) {
+    #experiencias{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .divExperiencias {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: 0;
+        margin-right: 0;
+        }
+
 }
-@media screen and (max-width: 414px) {
-    
+
+@media screen and (max-width: 520px) {
+    .divExperiencias {
+        padding-left: 0;
+        padding-right: 0;
+        }
+
 }
+

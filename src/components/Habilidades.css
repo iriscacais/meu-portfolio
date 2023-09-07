@@ -23,7 +23,7 @@
 
 .hardSkills p {
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -34,7 +34,7 @@
     margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 3%;
+    margin-top: 5px;
 }
 
 .logoSkills {
@@ -53,5 +53,12 @@
         margin-right: 8%;
         margin-left: 8%;
         margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 288px) {
+    .divSkills {
+        justify-content: center;
     }
 }
