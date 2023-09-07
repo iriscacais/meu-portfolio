@@ -6,7 +6,7 @@
 
 .hardSkills {
     align-items: center;
-    border: 1px solid #f39cab;
+    border: 2px solid #f39cab;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -15,9 +15,15 @@
     padding: 5px;
 }
 
+.hardSkills:hover {
+    
+    border: 2px solid #98C379;
+
+}
+
 .hardSkills p {
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -28,7 +34,7 @@
     margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 3%;
+    margin-top: 5px;
 }
 
 .logoSkills {
@@ -47,5 +53,12 @@
         margin-right: 8%;
         margin-left: 8%;
         margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 288px) {
+    .divSkills {
+        justify-content: center;
     }
 }

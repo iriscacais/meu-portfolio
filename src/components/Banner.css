@@ -64,9 +64,9 @@
       
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 550px) {
     .divBanner {
-        padding: 10%;
+        padding-top: 10%;
     }
     .content {
     display: flex;
@@ -83,20 +83,26 @@
     }
 }
 
-@media screen and (max-width: 280px) {
-    .divBanner {
-        padding: 10%;
-    }
-
+@media screen and (max-width: 390px) {
     .foto {
         border-radius: 160px;
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
         margin-bottom: 2%;
+        margin-left: 3%;
         margin-top: 24%;
         width: 240px;
     }
 
+    .divBanner h2 {
+        padding-top: 5%;
+        font-size: 27px;
+    }
+ 
 }
+    /* .divBanner p {
+        text-align: left;
+    }
+} */
 /*
 @media(max-width: 999px) {
     .divBanner {
