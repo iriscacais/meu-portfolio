@@ -1,19 +1,19 @@
 import React from 'react';
 import './Banner.css'
+import iris from '../images/desenvolvedora-iris-cacais.jpg'
 
 class Banner extends React.Component {
     render() {
         return(
             
             <section className="divBanner">
-                <img src='https://i.pinimg.com/564x/09/59/78/0959789677b6c538e05471a939713ebe.jpg' alt="Foto de Iris" className="foto" />
+                <img src={iris} alt="Foto de Iris Cacais" className="foto" title='Foto de Iris Cacais' />
                 <div className="divApresentacao"> 
-                    <h2>Olá, eu sou a Iris!</h2>
+                    <h1>Olá, eu sou a Iris!</h1>
                     <p className="paragrafoBanner">Desenvolvedora front-end. Sejam bem-vindos(as) ao meu portfólio.</p>
                 </div>
                 <span className="content">
                     <a href="mailto:mandeparairis@gmail.com" className="botoes">Entrar em contato</a>
-                    {/* <a href="./src/utils/curriculo-iris-cacais.pdf" download="curriculo-iris-cacais" className="botoes">Download CV</a> */}
                 </span> 
             </section>
              
