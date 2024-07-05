@@ -9,13 +9,14 @@ class Habilidades extends React.Component {
     render() {
         return (
             <main id="habilidades">
-              <h2 >Hard Skills</h2>
+              <h2>Hard Skills</h2>
               <div className="divSkills">
                 {dataHardSkills.map((skill, index) => (
                     <CardSkills 
                     key= {index}
                     name={skill.name}
                     image={skill.image}
+                    description={skill.description}
                     />
                 ))}
               </div>

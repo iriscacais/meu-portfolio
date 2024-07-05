@@ -16,6 +16,7 @@ class Projetos extends React.Component {
                     image={projeto.image}
                     description={projeto.description}
                     details={projeto.details}
+                    altImage={projeto.altImage}
                     github= {projeto.github}
                     deploy={projeto.deploy}
                     />
