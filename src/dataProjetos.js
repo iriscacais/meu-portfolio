@@ -1,10 +1,14 @@
+import solarSistem from '../src/images/sistema-solar.webp';
+import clinicaEstetica from '../src/images/clinica-estetica.webp';
+import starWars from '../src/images/star-wars-filter.webp';
+
 const dataProjetos = [
     {
         id: 1,
         name:'Solar System',
         description: 'Modelo de Sistema Solar utilizando React. - Front-end',
         details: 'React, JSX, CSS3',
-        image:'https://i.pinimg.com/564x/73/73/2f/73732fc11d665f0d08a2641162cee7e3.jpg',
+        image: solarSistem,
         altImage:'Foto do projeto Sistema Solar',
         github:'https://github.com/iriscacais/solar-system',
         deploy:'https://known-wood.surge.sh/',
@@ -15,7 +19,7 @@ const dataProjetos = [
         name:'Clínica de estética',
         description: 'Uma interface Front-end usando react',
         details: 'React, JSX, CSS3, Bootstrap',
-        image:'https://i.pinimg.com/564x/7b/01/7a/7b017ab33f004c79640141529944b313.jpg',
+        image: clinicaEstetica,
         altImage:'Foto do projeto Clínica de estética',
         github:'https://github.com/iriscacais/beautyclinicpage',
         deploy:'https://iriscacais.github.io/beautyclinicpage/',
@@ -25,7 +29,7 @@ const dataProjetos = [
         name:'Star Wars filter',
         description: 'Desenvolvimento de multiplos filtros para uma tabela de planetas',
         details: 'react-hooks, context-api, unit-test',
-        image:'https://i.pinimg.com/564x/da/d9/71/dad971cb36a5c7f08a28a326cb314a08.jpg',
+        image: starWars,
         altImage:'Foto do projeto Star Wars filter',
         github:'https://github.com/iriscacais/projeto-star-wars-filters',
         deploy:'https://iriscacais.github.io/projeto-star-wars-filters/',
