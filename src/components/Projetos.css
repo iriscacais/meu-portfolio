@@ -31,7 +31,7 @@
     background-color: #f39cab;
     border: 1px solid #000000;
     border-radius: px;
-    color: white;
+    color: #11172a;
     display: flex;
     height: 250px;
     margin: 30px 60px;
@@ -80,7 +80,7 @@
  }
 
  .container .card .content a {
-    color: white;
+    color: #11172a;
     display: inline-block;
     margin-right: 13px;
     margin-top: 10px;
