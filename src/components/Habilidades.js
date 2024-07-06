@@ -2,7 +2,7 @@ import React from "react";
 import './Habilidades.css'
 import CardSkills from "./CardSkills";
 import dataHardSkills from "../dataHabilidades";
-import './Experiencias.css'
+import './Formacao.css'
 
 class Habilidades extends React.Component {
   

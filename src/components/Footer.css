@@ -1,41 +1,11 @@
 footer {
-    align-items: center;
     box-shadow: 1px 1px 10px #fac0ca;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 4%;
-    padding: 5px;
     width: 100%;
 }
 
-.footer a {
-    text-decoration: none;
-}
 .footer p {
     color: white;
-    margin-top: 4%;
+    padding: 1rem;
 }
-
-/* @media(max-width: 999px) {
-    footer {
-       width: 100%;  
-    }
-   
-} */
-
-
-@media (max-width: 432px){
-    .footer p{
-          margin-left: 5%;
-     }
-}
-
-@media (max-width: 290px){
-
-    footer {
-        padding: 0;
-        width: 102%;
-    } 
-}
-
-

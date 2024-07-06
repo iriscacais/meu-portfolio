@@ -6,8 +6,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="footer">
-                <p>Desenvolvido por Iris Cacais, 2023</p>
-
+                <p>Desenvolvido por Iris Cacais</p>
            </footer> 
         )
     }
