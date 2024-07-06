@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/meu-portfolio/static/css/main.79912309.css",
-    "main.js": "/meu-portfolio/static/js/main.2c262d41.js",
+    "main.css": "/meu-portfolio/static/css/main.5a127029.css",
+    "main.js": "/meu-portfolio/static/js/main.dffc107a.js",
     "static/js/787.ec144382.chunk.js": "/meu-portfolio/static/js/787.ec144382.chunk.js",
-    "static/media/desenvolvedora-iris-cacais.jpg": "/meu-portfolio/static/media/desenvolvedora-iris-cacais.efab0eaf62533e6a6707.jpg",
+    "static/media/star-wars-filter.webp": "/meu-portfolio/static/media/star-wars-filter.6cf54b87797f13a9dfb1.webp",
+    "static/media/sistema-solar.webp": "/meu-portfolio/static/media/sistema-solar.448760a0ab6d053cd965.webp",
+    "static/media/desenvolvedora-iris-cacais.webp": "/meu-portfolio/static/media/desenvolvedora-iris-cacais.0279f1321ea671411f71.webp",
+    "static/media/clinica-estetica.webp": "/meu-portfolio/static/media/clinica-estetica.d0322529d29161e9331b.webp",
+    "static/media/react-testing-library.webp": "/meu-portfolio/static/media/react-testing-library.6114a632dcd18d8d07bf.webp",
+    "static/media/react.webp": "/meu-portfolio/static/media/react.c40765be3d662aeb987a.webp",
+    "static/media/html.webp": "/meu-portfolio/static/media/html.29467a9917d873409d22.webp",
+    "static/media/css3.webp": "/meu-portfolio/static/media/css3.e0f6ecf0ab4c5866651f.webp",
+    "static/media/javascript.webp": "/meu-portfolio/static/media/javascript.5acdf50d25a74ff63f68.webp",
+    "static/media/jest.webp": "/meu-portfolio/static/media/jest.138bac1ca92f8ab9bea8.webp",
+    "static/media/bootstrap.webp": "/meu-portfolio/static/media/bootstrap.aebb5b0ed29e5f378aeb.webp",
     "index.html": "/meu-portfolio/index.html",
-    "main.79912309.css.map": "/meu-portfolio/static/css/main.79912309.css.map",
-    "main.2c262d41.js.map": "/meu-portfolio/static/js/main.2c262d41.js.map",
+    "main.5a127029.css.map": "/meu-portfolio/static/css/main.5a127029.css.map",
+    "main.dffc107a.js.map": "/meu-portfolio/static/js/main.dffc107a.js.map",
     "787.ec144382.chunk.js.map": "/meu-portfolio/static/js/787.ec144382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79912309.css",
-    "static/js/main.2c262d41.js"
+    "static/css/main.5a127029.css",
+    "static/js/main.dffc107a.js"
   ]
 }
