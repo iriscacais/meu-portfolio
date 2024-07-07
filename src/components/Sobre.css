@@ -1,7 +1,15 @@
+h2 {
+    display: flex;
+    color: #f39cab;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5em;
+}
 
 .sobre {
-    padding: 128px 0 0 0;
+    padding: 2.5em 0;
 }
+
 .divImage {
     align-items: center;
     display: flex;
@@ -9,58 +17,12 @@
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 1%;
     padding: 128px 0 0 0;
-    width: 57%;
-}
-.sectionAbout {
-   display: flex;
-   justify-content: center;
+
 }
 
 .divImage p {
     text-align: left;
     color: white;
-    font-size: 20px;
-    margin-top: 8%;
-    margin-bottom: 6%;
-}
-
-@media screen and (max-width: 769px) {
-    .divImage p {
-        color: white;
-        font-size: 20px;
-        margin-bottom: 10%;
-        
-    }
-
-    .sobre {
-        padding: 65px 0 0 0;
-    }
-
-    .divImage {
-        width: 65%;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .divImage {
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-        width: 85%;
-
-    }
-}
-
-@media screen and (max-width: 434px) {
-    .divImage {
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 8%;
-        padding-right: 5%;
-        width: 100%;
-    }
-
+    font-size: 1.2em;
 }

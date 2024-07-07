@@ -1,10 +1,10 @@
 import React from "react";
-import './Habilidades.css'
+import './HardSkills.css'
 import CardSkills from "./CardSkills";
 import dataHardSkills from "../dataHabilidades";
 import './Formacao.css'
 
-class Habilidades extends React.Component {
+class HardSkills extends React.Component {
   
     render() {
         return (
@@ -26,4 +26,4 @@ class Habilidades extends React.Component {
     }
 }
 
-export default Habilidades;
+export default HardSkills;

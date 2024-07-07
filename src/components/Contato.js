@@ -7,7 +7,6 @@ class Contato extends React.Component {
         return (
             <main id="contato">
                 <h2>Contato</h2>
-                <br></br>
                 <div className="divContato">
                     <ul>
                         <li><a href="mailto:mandeparairis@gmail.com" aria-label="Link para enviar email"><i class="fa-regular fa-envelope"></i></a></li> 

@@ -3,11 +3,11 @@ import React from 'react';
 import Header from './components/Header';
 import Sobre from './components/Sobre';
 import Banner from './components/Banner';
-import Habilidades from './components/Habilidades';
 import Projetos from './components/Projetos';
 import Formação from './components/Formacao';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
+import HardSkills from './components/HardSkills';
 
 class App extends React.Component {
   render() {
@@ -17,7 +17,7 @@ class App extends React.Component {
       <Banner />
       <Sobre />
       <Formação />
-      <Habilidades />
+      <HardSkills />
       <Projetos />
       <Contato />
       <Footer />

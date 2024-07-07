@@ -1,11 +1,9 @@
 footer {
     box-shadow: 1px 1px 10px #fac0ca;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    text-align: center;
 }
 
 .footer p {
     color: white;
-    padding: 1rem;
+    padding: 1em;
 }
