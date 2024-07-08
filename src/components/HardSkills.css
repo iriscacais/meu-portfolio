@@ -12,6 +12,7 @@
     justify-content: center;
     margin: 1em;
     padding: 1em;
+    width: 132.02px;
 }
 
 .hardSkills:hover {
@@ -21,7 +22,7 @@
 
 .hardSkills p {
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -34,11 +35,16 @@
 }
 
 .logoSkills {
+    height: 95px;
     width: 95px;
 }
 
 @media screen and (max-width: 390px) {
     .divSkills {
         justify-content: center;
+    }
+
+    #habilidades {
+        width: 400px;
     }
 }

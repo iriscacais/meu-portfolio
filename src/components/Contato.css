@@ -20,3 +20,9 @@ color: #98C379;
     padding: 2.5em 0;
     padding-top: 5em;
 }
+
+@media screen and (max-width: 390px) {
+    #contato {
+        width: 400px;
+    }
+}

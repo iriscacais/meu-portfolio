@@ -1,6 +1,8 @@
 import solarSistem from '../src/images/sistema-solar.webp';
 import clinicaEstetica from '../src/images/clinica-estetica.webp';
 import starWars from '../src/images/star-wars-filter.webp';
+import unitTest from '../src/images/unit-tests.webp';
+import zoo from '../src/images/zoo-functions.webp';
 
 const dataProjetos = [
     {
@@ -41,7 +43,7 @@ const dataProjetos = [
         description: 'Implementação de funções e testes unitários. - Fundamentos',
         details: 'ES6, Jest, testes unitários',
         altImage:'Foto do código do projeto Unit tests',
-        image:'https://i.pinimg.com/564x/a1/54/01/a15401c6ed8a416dcc7e2c038b253fde.jpg',
+        image: unitTest,
         github:'https://github.com/iriscacais/unit-tests',
         deploy:'',
     },
@@ -51,7 +53,7 @@ const dataProjetos = [
         name:'Zoo functions',
         description: 'Implementação de funções para o sistema de um zoológico. - Fundamentos',
         details: 'ES6, HOFs, testes unitários',
-        image:'https://i.pinimg.com/564x/b3/68/81/b36881542bbf4f5c8d8a25bfed9cea9b.jpg',
+        image: zoo,
         altImage:'Foto do código do projeto Zoo functions',
         github:'https://github.com/iriscacais/zoo-functions',
         deploy:'',

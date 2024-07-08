@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    margin-top: 70px;
 }
 
 .foto {
@@ -11,8 +11,17 @@
     margin-bottom: 2%;
     margin-top: 10%;
     width: 280px;
+   
 }
-
+.carregando{
+    border-radius: 50%;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;    
+    margin-bottom: 2%;
+    margin-top: 10%;
+    width: 280px;
+}
 .divBanner h1 {
     color: white;
     font-size: 2.5em;
@@ -21,8 +30,8 @@
 
 .divBanner p {
     color: white;
-    font-size: 1.2em;
-    padding: 4%;
+    font-size: 1.5em;
+    padding: 1em;
     text-align: center;
     width: 100%;
     
@@ -52,30 +61,19 @@
 .divApresentacao {
     align-items: center;
     display: flex;
-    flex-direction: column;      
-}
-
-@media screen and (max-width: 990px) {
-    .divBanner {
-        padding-top: 8%;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    .divBanner {
-        padding-top: 15%;
-    }
+    flex-direction: column;
+    width: 100%;    
 }
 
 @media screen and (max-width: 500px) {
-    .divBanner {
-        padding-top: 25%;
-    }
-
     .divBanner h1 {
         font-size: 2.0em;   
-        text-align: center;
         padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .divBanner {
+        width: 400px;
     }
 }

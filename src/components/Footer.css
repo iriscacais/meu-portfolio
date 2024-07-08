@@ -6,4 +6,11 @@ footer {
 .footer p {
     color: white;
     padding: 1em;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        width: 400px;
+    }
 }
